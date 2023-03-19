@@ -36,6 +36,8 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="build.bat" />
+    <Content Include="icon.ico" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
