@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Files</title>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+</head>
+<body>
+    <h1>JSON Files</h1>
+    <p>Current Path: {{ current_path }}</p>
+    <ul>
+        {% for file in files %}
+        {% if file.endswith('.json') %}
+        <li><a href="{{ url_for('get_json_file', path=file[:-5]) }}">{{ file }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
