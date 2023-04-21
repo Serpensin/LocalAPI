@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>da84646c-6f5e-464e-b922-1b5fa0684287</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>LocalAPI.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="LocalAPI.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
